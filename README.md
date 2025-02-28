@@ -41,19 +41,27 @@ This project is a Proof of Concept (POC) demonstrating the integration of Kafka,
 ## 📂 Project Structure
 
 ```
-├── nginx/
+
+│── /nginx
 │   ├── default.conf
-├── php/
 │   ├── Dockerfile
-├── vendor/ (Composer dependencies)
-├── composer.json
-├── docker-compose.yml
-├── consumer.php
-├── producer.php
-├── producer-poller.php
-├── transformer.php
-├── login.php
-├── callback.php
+│── /php
+│   ├── /src
+│   │   ├── producer.php
+│   │   ├── consumer.php
+│   │   ├── transformer.php
+│   │   ├── login.php
+│   │   ├── producer-poller.php
+│   │   ├── callback.php
+│   │   ├── index.php
+│   ├── /vendor
+│   ├── composer.json
+│   ├── composer.lock
+│   ├── Dockerfile
+│── .env (for environment variables)
+│── docker-compose.yml
+│── README.md
+
 ```
 
 ## 🚀 Getting Started
