@@ -139,8 +139,4 @@ CREATE STREAM transformed_stream AS SELECT * FROM favoris_stream WHERE id > 50;
 - Improve **error handling** in PHP Kafka consumers.
 - Deploy the architecture to a **cloud provider** (AWS, GCP, Azure).
 
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
 💡 **Contributions & feedback are welcome!**
